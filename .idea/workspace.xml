@@ -91,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VerticalOrder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VerticalOrder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Data_Structures/BinaryTrees/VerticalOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -100,6 +100,16 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#753#779#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="isHeap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Data_Structures/Heap/isHeap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/Data_Structures/BinaryTrees/LineLevelTraversal.java" />
         <option value="$PROJECT_DIR$/src/Data_Structures/BinaryTrees/InorderStack.java" />
         <option value="$PROJECT_DIR$/src/Data_Structures/BinaryTrees/VerticalOrder.java" />
+        <option value="$PROJECT_DIR$/src/Data_Structures/Heap/isHeap.java" />
       </list>
     </option>
   </component>
@@ -256,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InorderStack$BinaryTree">
+  <component name="RunManager" selected="Application.isHeap">
     <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -322,25 +333,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Data_Structures.BinaryTrees.LineLevelTraversal" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="coding_interview" />
-      <envs />
-    </configuration>
-    <configuration name="RecursiveSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Data_Structures.Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Data_Structures.Stack.RecursiveSort" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -452,21 +444,40 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="isHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Data_Structures.Heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Data_Structures.Heap.isHeap" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="coding_interview" />
+      <envs />
+    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.SelectionSort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RecursiveSort" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BTTraveral" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BFS" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LineLevelTraversal" />
-      <item index="5" class="java.lang.String" itemvalue="Application.InorderStack$BinaryTree" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BTTraveral" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BFS" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LineLevelTraversal" />
+      <item index="4" class="java.lang.String" itemvalue="Application.InorderStack$BinaryTree" />
+      <item index="5" class="java.lang.String" itemvalue="Application.isHeap" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.InorderStack$BinaryTree" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LineLevelTraversal" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BFS" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BTTraveral" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RecursiveSort" />
+        <item index="0" class="java.lang.String" itemvalue="Application.isHeap" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InorderStack$BinaryTree" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LineLevelTraversal" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BFS" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BTTraveral" />
       </list>
     </recent_temporary>
   </component>
@@ -480,12 +491,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509075406273</updated>
-      <workItem from="1510547098053" duration="14225000" />
+      <workItem from="1510547098053" duration="16991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14225000" />
+    <option name="totallyTimeSpent" value="16991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -566,20 +577,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Data_Structures/SingleLL/ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/SearchingAlgorithms/binarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/SearchingAlgorithms/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -942,6 +939,22 @@
             <element signature="imports" expanded="true" />
             <element signature="e#753#779#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data_Structures/Heap/isHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
